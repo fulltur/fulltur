@@ -1,0 +1,439 @@
+﻿.fsearch{
+
+}
+.fsearch .tripWrapper{
+    margin-bottom:10px;
+}
+.fsearch .tripWrapper .radio-item{
+    margin-right: 20px;
+}
+.fsearch .tripWrapper .radio-item label{
+    font-size:14px;
+    color:#FFF;
+    cursor:pointer;
+    vertical-align: middle;
+    padding-left: 3px;
+} 
+.sr-airline{
+
+}
+.sr-airline li{
+    text-align:center;
+}
+.sr-airline li img{
+    display:inline-block;
+}
+.sr-airline li span.aname{
+    display:block;
+}
+.sr-vairline li{
+    text-align:left;
+}
+.sr-price li{
+
+}
+.sr-price li .seatnum{
+
+}
+.sr-price li label{
+    vertical-align: bottom;
+    position:relative;
+    top: 1px;
+    padding-left: 4px;
+    font-size: 14px;
+    color: #747272;
+}
+.sr-class li{
+    padding-bottom:3px;
+} 
+.sr-airportEmpty {
+    padding-right: 0!important;
+    text-align: right!important;
+}
+.sr-time {
+    white-space: nowrap;
+    color: #26A7CD;
+    font-weight: bold;
+    font-size: 14px;
+}
+.fresults{
+    margin-bottom:5px;
+}
+.fresults tr td{
+    border-top:none;
+    border-bottom: 1px solid #DDD;
+} 
+.infoItems p{
+	margin:4px 0 0;
+	line-height:normal;
+}
+.infoItems .info-airports{
+	width:35%;
+	text-align:right;
+}
+.infoItems .info-iconstops{
+	width:5%;
+	text-align:center;
+}
+.infoItems .info-airline,
+.infoItems .info-seats{
+	width:15%;
+}
+.info-waiting span{
+	border-left: 2px dashed #34B0CC;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px 0 5px 3px;
+    padding: 0 0 0 33px;
+}
+ 
+.infoTable td.infoItems {
+    color: #BDBDBD;
+    font-size: 11px;
+    padding: 30px 0;
+    font-weight: normal;
+    line-height: 16px;
+    vertical-align: bottom;
+    border-top: 1px dashed #EEE;
+    background-color: #F1F1F1;
+}
+.infoTable .multileg {
+    clear: both;
+    margin: 0 30px;
+}
+.infoTable .multileg table{
+	margin:0;
+	width:100%;
+}
+.infoTable .info-waiting td {
+    vertical-align: middle;
+    font-size: 11px;
+    color: #888;
+    padding: 5px;
+    border-bottom: 1px solid #DADADA;
+} 
+.infoTable td.infoItems tr.infoItem td {
+    border: none;
+    font-size: 11px;
+    color: #6C6C6C;
+    font-weight: normal;
+    vertical-align: middle;
+    background: #FFF;
+    padding: 5px 3px;
+}
+.infoTable td.infoItems tr.infoItem {
+    border-bottom: dotted 1px #DADADA;
+}
+.infoTable td.info-airline .iairline img{
+    display:inline-block;
+}
+.infoTable td.info-airline .iairline{
+    padding-right:10px;
+    text-align:center;
+}
+
+a.activeDetail, a.passiveDetail, a.show {
+    background-color: #E3E3E3;
+    background-image: url('../img/glyphicons-halflings.png');
+    background-repeat: no-repeat;
+    display: block;
+    height: 20px;
+    line-height: 16px;
+    margin-top: 1px;
+    vertical-align: text-top;
+    width: 20px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 3px;
+    background-position: -45px 3px;
+}
+.infoTable{
+    display:none;
+}
+.infoButtons{
+    position:relative;
+}
+.infoButtons .lastSeat{
+    background-color: #6B6A97;
+    color: #FFF;
+    padding: 2px 0;
+    position: absolute;
+    top: 34px;
+    right: 0;
+    width: 72px;
+    text-align: center;
+}
+.totalcal{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #405C87;
+    padding: 5px 0;
+}
+.totalcal #totalCalPrice{
+    color: #FFA500;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.botcalculated{
+    padding-bottom:10px;
+    display:none;
+}
+#departures .wayTopBar{
+    background-color: #C0B3AC;
+    font-size:18px;
+}
+#departures .wayTopBar a{
+    color:#FFF;
+}
+#departures .wayTopBar .wtitle{
+    color:#FFF;
+    font-weight:bold;
+}
+#arrivals .wayTopBar{
+    background-color: #6B6A97;
+    font-size:18px;
+}
+#arrivals .wayTopBar a{
+    color:#FFF;
+}
+#arrivals .wayTopBar .wtitle{
+    color:#FFF;
+    font-weight:bold;
+}
+.wayTopBar {
+    padding: 10px 0;
+}
+.wayTopBar .sch-ibuttons{
+    text-align:right;
+}
+.wayTopBar .sch-ibuttons .sch-movedate{
+    color:#FFF;
+    position: relative;
+    top: -1px;
+}
+.voucherPage .wayTopBar
+{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #EDEDED;
+    color: #928F8F;
+}
+.voucherPage .voTitle{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #EDEDED;
+    color: #928F8F;
+    padding: 10px;
+}
+.resProceed .glyphicon {
+    top:3px;
+}
+
+#dprDepartureTimes, 
+#dprArrivalTimes,
+#rtnDepartureTimes,
+#rtnArrivalTimes{
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    display: block;
+}
+#filter-container .ui-slider .ui-state-default{
+    background: #C0B3AC;
+    border: none;
+    top: -7px !important;
+    border-radius: 15px;
+}
+.ui-slider .ui-slider-range{
+	background: #978175;
+}
+.ui-slider.ui-widget-content{
+	background: #C0B3AC;
+    height: 3px;
+    border: none;
+}
+.flightlist-bot .allresbtn{
+    display: block;
+    padding: 8px 0;
+    text-align: center;
+    border: 1px solid #E3E3E3;
+    border-radius: 2px;
+    width: 110px;
+    float: right;
+    margin: 9px 5px 15px 0;
+}
+.warninfotext{
+        font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    background-color: #FFF;
+    border: 2px solid #C0B3AC;
+    margin-bottom: 20px;
+}
+.flightDetail .wayTopBar {
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;  
+    background-color: #EDEDED;
+    color: #928F8F;
+} 
+.detailTable th,
+.passengersTable th{
+    font-size:13px;
+}
+.detailTable td,
+.passengersTable td{
+    font-size:13px;
+}
+.passengersTable .sr-gender ul li:first-child{
+    width:65px;
+}
+.passengersTable .sr-gender ul li{
+    float:left;
+    width:75px;
+}
+.passengersTable .sr-gender ul li label{
+    cursor: pointer;
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+}
+.detailTable .sr-airline{
+    width:15%
+}
+.detailTable .sr-flightno{
+    width:15%
+}
+.detailTable .sr-airport{
+    width:30%
+}
+.detailTable td.sr-airport span{
+    color: #26A7CD;
+    font-weight: bold;
+    font-size: 15px;
+}
+.detailTable .sr-class{
+    width:10%
+}  
+
+.cc-pans .cpan{
+    float:left;
+    width:90px;
+    margin-right:10px;
+}
+.cc-dates select{
+    float:left;
+    width:90px;
+    margin-right:10px;
+} 
+.cc-inputs .ccv{ 
+    width:110px;
+}
+.cc-table{
+    width: 560px;
+    margin: 0 auto;
+}
+.cc-table td{
+    border-top:none!important;
+    padding:4px!important;
+}
+.cc-table td.cc-label{
+    text-align:right;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+}
+.cc-table tbody td{
+    position:relative;
+}
+.cc-table .ccv{
+    width:90px;
+}
+.cc-table .cc-name{
+    width:390px;
+} 
+.priceListTable{
+
+}
+.priceListTable .sr-total-text{
+    text-align:right;
+    padding-right:10px;
+    font-size:14px;
+}
+.priceListTable .sr-total{
+    text-align:right; 
+}
+.priceListTable .sr-total-value{
+    text-align: right;
+    font-size: 16px;
+    color: #EBA164;
+    font-weight: bold;
+}
+.passengersTable .sr-gender{
+    width: 170px;
+}
+.aggrementCheck{
+    width: 340px;
+    margin: 50px auto 30px auto;
+}
+.aggrementCheck a{
+    font-weight: bold;
+    color: #2FA6E3;
+}
+.aggrementCheck a:hover{
+    text-decoration:underline;
+}
+.ticketInfoTable{
+    margin-bottom:20px;
+}
+.ticketInfoTable td{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top; 
+    width: 170px;
+    font-weight:bold;
+    font-size:14px;
+} 
+.ticketInfoTable .sr-order{
+    color: #F0A039;
+}
+.ticketInfoTable .sr-pnr{
+    color: #F0A039;
+}
+.tright{
+    text-align:right;
+}
+.sr-voucher-totalpasstext{
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sr-voucher-total{
+    font-weight: bold;
+    font-size: 14px;
+    color: #F0A039;
+}
+
+.voucherPassInfo th, .voucherPassInfo th,
+.voucherPriceInfo th, .voucherPriceInfo th {
+    font-size: 13px;
+}
+.print-line{
+    text-align:right;
+    margin:10px 0;
+}
+.print-line a{
+    display:inline-block;
+    padding: 8px 15px;
+    display: inline-block;
+    background-color: #F4F4F4;
+    border: 1px solid #D1D1D1;
+}

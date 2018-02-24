@@ -1,0 +1,44 @@
+﻿/*Reset Style*/
+body {margin:0; padding:0; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px; font: 13px Arial, Helvetica,"Lucida Grande", serif; color: #000;}
+
+@page {
+    margin: 1cm auto auto auto;
+}
+ 
+/*Remove Element*/
+.footer,.print-line {display:none;} 
+
+.page-break { display: block; page-break-before: always; }
+
+.voucherPage .wayTopBar {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #EDEDED;
+    color: #928F8F;
+}
+
+h1{
+    font-size:16px;
+}
+
+table td{
+    font-size:14px;
+}
+
+.ticketInfoTable td{
+    width:190px;
+    font-size:15px;
+} 
+
+.voucherPage .voTitle,
+.titleBar,
+.voucherPage .wtitle{
+    border-bottom:1px solid #000;
+}
+.voucherPage .wayTopBar .col-xs-12,
+.voucherPage .voTitle{
+    padding:0;
+}
+.print-item{
+    display:block;
+}
